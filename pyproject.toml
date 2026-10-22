@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "edgeai-ppe-system"
+version = "0.2.0"
+description = "Modular PPE monitoring skeleton with an explicit synthetic demo"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+edgeai-ppe = "edgeai_ppe.cli:main"
+edgeai-ppe-benchmark = "edgeai_ppe.benchmark.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

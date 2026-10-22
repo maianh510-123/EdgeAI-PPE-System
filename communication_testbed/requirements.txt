@@ -1,0 +1,5 @@
+# Optional testbed dependencies; HTTP and core demo need neither.
+paho-mqtt>=2.1,<3
+aiocoap>=0.4.12,<0.5
+# Recent aiocoap versions require Python 3.11+; use 3.11+ for this testbed.
+# MQTT also requires a separate broker, e.g. Mosquitto, not bundled here.

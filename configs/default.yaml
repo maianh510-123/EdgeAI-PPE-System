@@ -1,0 +1,8 @@
+{
+  "device_id": "edge_node_01",
+  "camera_id": "camera_01",
+  "confidence_threshold": 0.5,
+  "detector": "demo",
+  "transport": "console",
+  "log_level": "INFO"
+}
