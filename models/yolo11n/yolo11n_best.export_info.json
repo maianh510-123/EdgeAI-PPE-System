@@ -1,0 +1,30 @@
+{
+  "model": "YOLO11n",
+  "source_pt": "code/yolo11n_best.pt",
+  "onnx_file": "code/yolo11n_best.onnx",
+  "input_shape": [
+    1,
+    3,
+    640,
+    640
+  ],
+  "input_type": "tensor(float)",
+  "output_shapes": [
+    [
+      1,
+      15,
+      8400
+    ]
+  ],
+  "provider": [
+    "CPUExecutionProvider"
+  ],
+  "onnx_size_mib": 10.08339786529541,
+  "pt_size_mib": 5.208215713500977,
+  "pt_sha256": "ccae04b84fc30662db7c277d98d280061b21a614e372d30cd03a294373901762",
+  "onnx_sha256": "77d40063b1ae5a91d607268df9fe4554b02365938b9f2d82aa376bfeb8036ebf",
+  "precision": "FP32",
+  "nms_export_setting": null,
+  "input_size": 640,
+  "batch": 1
+}

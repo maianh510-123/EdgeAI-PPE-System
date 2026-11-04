@@ -1,0 +1,52 @@
+{
+  "created_utc": "2026-11-04T09:47:48.144690+00:00",
+  "image_directory": "/Users/khuenguyen/Documents/bk/bk_2026-2027/261/ce_project/datasets/construction-ppe/images/test",
+  "model_summaries": [
+    {
+      "model": "yolo11n",
+      "images_processed": 141,
+      "pytorch_detections": 1110,
+      "onnx_detections": 1110,
+      "matched_detections": 1110,
+      "unmatched_pytorch": 0,
+      "unmatched_onnx": 0,
+      "images_with_unmatched_detections": 0,
+      "mean_matched_iou": 0.9999993670675448,
+      "min_matched_iou": 0.9999930309521549,
+      "max_confidence_difference": 3.3676624298095703e-06,
+      "config": {
+        "image_size": 640,
+        "confidence_threshold": 0.25,
+        "nms_iou_threshold": 0.7,
+        "matching_iou_threshold": 0.99,
+        "device": "cpu"
+      },
+      "pt_checkpoint": "/Users/khuenguyen/Documents/bk/bk_2026-2027/261/ce_project/models/yolo11n/yolo11n_best.pt",
+      "onnx_checkpoint": "/Users/khuenguyen/Documents/bk/bk_2026-2027/261/ce_project/models/yolo11n/yolo11n_best.onnx",
+      "note": "Same-class, one-to-one greedy box matching on test images. Evaluates output consistency only; not ground-truth accuracy, mAP equivalence, or runtime speed."
+    },
+    {
+      "model": "yolo26n",
+      "images_processed": 141,
+      "pytorch_detections": 1121,
+      "onnx_detections": 1121,
+      "matched_detections": 1121,
+      "unmatched_pytorch": 0,
+      "unmatched_onnx": 0,
+      "images_with_unmatched_detections": 0,
+      "mean_matched_iou": 0.999998920933904,
+      "min_matched_iou": 0.9999929886887283,
+      "max_confidence_difference": 4.470348358154297e-06,
+      "config": {
+        "image_size": 640,
+        "confidence_threshold": 0.25,
+        "nms_iou_threshold": 0.7,
+        "matching_iou_threshold": 0.99,
+        "device": "cpu"
+      },
+      "pt_checkpoint": "/Users/khuenguyen/Documents/bk/bk_2026-2027/261/ce_project/models/yolo26n/yolo26n_best.pt",
+      "onnx_checkpoint": "/Users/khuenguyen/Documents/bk/bk_2026-2027/261/ce_project/models/yolo26n/yolo26n_best.onnx",
+      "note": "Same-class, one-to-one greedy box matching on test images. Evaluates output consistency only; not ground-truth accuracy, mAP equivalence, or runtime speed."
+    }
+  ]
+}
