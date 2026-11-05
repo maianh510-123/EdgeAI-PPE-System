@@ -4,7 +4,9 @@
 
 - inference_wrapper.py: Unified PyTorch/ONNX inference wrapper
 - yolo11n_best.onnx: Trained YOLO11n ONNX model
-- sample_detections.jsonl: Frame-by-frame detection samples
+- yolo11n_sample_detections.jsonl: 150 ONNX frames from workers_walking.mp4
+- yolo26n_sample_detections.jsonl: 150 ONNX frames from workers_walking.mp4
+- yolo26n_best.onnx: Trained YOLO26n ONNX model
 - video_summary.json: Week 6 video performance results
 
 ## Detection configuration
@@ -17,16 +19,10 @@
 ## Class mapping
 
 0: helmet
-1: gloves
-2: vest
-3: boots
-4: goggles
-5: none
-6: Person
-7: no_helmet
-8: no_goggle
-9: no_gloves
-10: no_boots
+1: no_helmet
+2: person
+3: vest
+4: no_vest
 
 ## Integration notes
 
@@ -56,7 +52,18 @@ Both models were tested on 141 test images.
 All PyTorch detections matched ONNX detections
 at IoU >= 0.99 under the tested configuration.
 
-The models use the same 11-class PPE mapping.
+The models use the same five-class PPE mapping.
+For the compliance module, map `vest` to `safety_vest` and `no_vest` to
+`no_safety_vest`. Keep the checkpoint class IDs separate from older 11-class IDs.
 
 The integration module can switch between the
 models without changing the detection schema.
+
+## Result versions
+
+The files at this folder root contain the latest five-class handoff update.
+`video_summary.json` records all 16 runs (four videos, two models, two backends),
+with 150 sampled frames per run. The root JSONL files are samples from one video.
+The dated `week6_5class_full_20261105/` folder retains the earlier
+complete five-class package, including the class-name adapter and raw outputs.
+These tests check inference and backend agreement; they do not measure labeled mAP.

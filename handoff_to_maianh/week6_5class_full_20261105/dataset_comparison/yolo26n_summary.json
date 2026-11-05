@@ -1,0 +1,24 @@
+{
+  "model": "yolo26n",
+  "model_set": "week6-5class",
+  "images_processed": 141,
+  "pytorch_detections": 694,
+  "onnx_detections": 694,
+  "matched_detections": 694,
+  "unmatched_pytorch": 0,
+  "unmatched_onnx": 0,
+  "images_with_unmatched_detections": 0,
+  "mean_matched_iou": 0.9999992567670265,
+  "min_matched_iou": 0.9999965641692282,
+  "max_confidence_difference": 2.0563602447509766e-06,
+  "config": {
+    "image_size": 640,
+    "confidence_threshold": 0.25,
+    "nms_iou_threshold": 0.7,
+    "matching_iou_threshold": 0.99,
+    "device": "cpu"
+  },
+  "pt_checkpoint": "/Users/khuenguyen/Documents/bk/bk_2026-2027/261/ce_project/models/yolo26n/week6_5class_full_20261105/best.pt",
+  "onnx_checkpoint": "/Users/khuenguyen/Documents/bk/bk_2026-2027/261/ce_project/models/yolo26n/week6_5class_full_20261105/best.onnx",
+  "note": "Same-class, one-to-one greedy box matching on test images. Evaluates output consistency only; not ground-truth accuracy, mAP equivalence, or runtime speed."
+}
