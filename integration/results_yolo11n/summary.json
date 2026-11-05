@@ -1,0 +1,11 @@
+{
+  "frames_processed": 600,
+  "detections_processed": 4926,
+  "events_generated": 4926,
+  "events_rejected": 0,
+  "status_counts": {
+    "detected": 1722,
+    "compliant": 3180,
+    "violation": 24
+  }
+}
