@@ -1,0 +1,202 @@
+[
+  {
+    "source_image": "images/test/image1009.jpg",
+    "source_label": "labels/test/image1009.txt",
+    "image": "images/val/test__image1009.jpg",
+    "label": "labels/val/test__image1009.txt",
+    "split": "val",
+    "group_id": 16,
+    "image_sha256": "6e18fcd07f54e1957cd224f0b50620fc5854c158e2cdc036ea1f457ead1e2949",
+    "label_sha256": "8ff735b793d56c59f2710e474253e499e32dbfd9bf53bf9f45e1ec81450c8fe1"
+  },
+  {
+    "source_image": "images/test/image1037.jpeg",
+    "source_label": "labels/test/image1037.txt",
+    "image": "images/val/test__image1037.jpeg",
+    "label": "labels/val/test__image1037.txt",
+    "split": "val",
+    "group_id": 1283,
+    "image_sha256": "6c450b2f0d7642b79f95f1568c6699242e5541a3ef666bd2569a609178f5c070",
+    "label_sha256": "530f4c00949b2c3fe69296d8ede39d0a4bbbc0da0e281812322a7f06ef1adf45"
+  },
+  {
+    "source_image": "images/test/image1152.jpg",
+    "source_label": "labels/test/image1152.txt",
+    "image": "images/val/test__image1152.jpg",
+    "label": "labels/val/test__image1152.txt",
+    "split": "val",
+    "group_id": 1298,
+    "image_sha256": "47dbd51995e1a4e015772599c2e8621fb7ac16ba27671cfc2ca4d16b0841d0be",
+    "label_sha256": "6df837427c794397fbbd3ebefd39e6abcc825b9bc67c4c9fcb23d672bac7df88"
+  },
+  {
+    "source_image": "images/test/image1235.jpg",
+    "source_label": "labels/test/image1235.txt",
+    "image": "images/val/test__image1235.jpg",
+    "label": "labels/val/test__image1235.txt",
+    "split": "val",
+    "group_id": 1305,
+    "image_sha256": "f5b127f1c78c8be9b116ad7446edaeb7d7cc8e39150dc27252c698f3fcb377e8",
+    "label_sha256": "c0d08ebbd682de0205329b89164442544a3285c2d0a4a56aad40221168eef9e0"
+  },
+  {
+    "source_image": "images/test/image1256.jpg",
+    "source_label": "labels/test/image1256.txt",
+    "image": "images/val/test__image1256.jpg",
+    "label": "labels/val/test__image1256.txt",
+    "split": "val",
+    "group_id": 1308,
+    "image_sha256": "f8a3ef82ced85b2d2871ee9bb61091aaa953479b16e8cd6c0a7e2b017b275c6f",
+    "label_sha256": "f0ee1fada994e6ea83a86528e2aae43c5c46a5808408b6677683406e27bbf215"
+  },
+  {
+    "source_image": "images/test/image160.jpg",
+    "source_label": "labels/test/image160.txt",
+    "image": "images/val/test__image160.jpg",
+    "label": "labels/val/test__image160.txt",
+    "split": "val",
+    "group_id": 16,
+    "image_sha256": "08c5a64df7439897ae585bc16676de65d586143280883c990b19d851bea66bf4",
+    "label_sha256": "6bf62991541486a736a1f6af38d7b7cdd057d5265366d981088e62ff0e8058be"
+  },
+  {
+    "source_image": "images/test/image190.jpg",
+    "source_label": "labels/test/image190.txt",
+    "image": "images/val/test__image190.jpg",
+    "label": "labels/val/test__image190.txt",
+    "split": "val",
+    "group_id": 16,
+    "image_sha256": "21c717b3164c3b0efe9f31f9b8cecdc7a38fa7047e4d133bbde035ccd9a447e9",
+    "label_sha256": "354a473c20eb16edb6468990fcb1881b80651d9967da6f3b687c22064c6b2431"
+  },
+  {
+    "source_image": "images/test/image231.jpg",
+    "source_label": "labels/test/image231.txt",
+    "image": "images/val/test__image231.jpg",
+    "label": "labels/val/test__image231.txt",
+    "split": "val",
+    "group_id": 446,
+    "image_sha256": "b0f3010eead0c97684e5c74ea7a25a802813fa643aee68d3c6679124bbe187bd",
+    "label_sha256": "0e1e2e7c05c11279bf480d4a337b2632df087e618c3dfd236bc9fe341afeb794"
+  },
+  {
+    "source_image": "images/test/image287.jpg",
+    "source_label": "labels/test/image287.txt",
+    "image": "images/val/test__image287.jpg",
+    "label": "labels/val/test__image287.txt",
+    "split": "val",
+    "group_id": 16,
+    "image_sha256": "28d04a3266f299f683e5877aed4b4460b97bac4a6445a8eff334d053d5ec3eef",
+    "label_sha256": "95ea864ba1d54d21666ce8e907795b83955c6a5f83c35f7199f31cb5d38b3d07"
+  },
+  {
+    "source_image": "images/test/image40.jpg",
+    "source_label": "labels/test/image40.txt",
+    "image": "images/val/test__image40.jpg",
+    "label": "labels/val/test__image40.txt",
+    "split": "val",
+    "group_id": 16,
+    "image_sha256": "9829e94cd701d2de33d3f3817c72a4937ceccb0298d31e85a93ff164afb3f0fc",
+    "label_sha256": "08c7c3fff6eb89ba55367a94d7b5d4be1b8dfd052e0841e32fddb8a440794809"
+  },
+  {
+    "source_image": "images/test/image459.jpg",
+    "source_label": "labels/test/image459.txt",
+    "image": "images/val/test__image459.jpg",
+    "label": "labels/val/test__image459.txt",
+    "split": "val",
+    "group_id": 16,
+    "image_sha256": "7e4557a2239a15d72a85233b5bbd4bdc0cb79e2ac70ba5c327acba2882d1956e",
+    "label_sha256": "f9c633c680c86d800f94a74e6b6ec4c9cd379aa4a5b4c70734c97b2ed5942bc5"
+  },
+  {
+    "source_image": "images/test/image63.jpg",
+    "source_label": "labels/test/image63.txt",
+    "image": "images/val/test__image63.jpg",
+    "label": "labels/val/test__image63.txt",
+    "split": "val",
+    "group_id": 16,
+    "image_sha256": "e6bb72c4ff48849c6394d618f7c52d8f448eae999016ac93b2788eaf021b5952",
+    "label_sha256": "a8a33032c959a26816a21642aa3f421f3c1f78b15008e8aa43eb30f2b8235692"
+  },
+  {
+    "source_image": "images/test/image739.jpeg",
+    "source_label": "labels/test/image739.txt",
+    "image": "images/val/test__image739.jpeg",
+    "label": "labels/val/test__image739.txt",
+    "split": "val",
+    "group_id": 949,
+    "image_sha256": "6d0c6623d2dc44dbf6373dc244088e8bdeac25728483215cf99c7f729820dcd3",
+    "label_sha256": "7ae41a8ed4aa94d83ecb27574e8cbf13908e598f01ee72cf8b45b7e68c043588"
+  },
+  {
+    "source_image": "images/test/image758.jpg",
+    "source_label": "labels/test/image758.txt",
+    "image": "images/val/test__image758.jpg",
+    "label": "labels/val/test__image758.txt",
+    "split": "val",
+    "group_id": 667,
+    "image_sha256": "eab66da6fff3e8a48979c8c827a8408ef354d4309bcdba41b5fa8387b7fdab38",
+    "label_sha256": "3bd8f79935a8e57ef090ae6f38ce5576f6fa5861116648f032d39e1f078f5a47"
+  },
+  {
+    "source_image": "images/test/image772.jpg",
+    "source_label": "labels/test/image772.txt",
+    "image": "images/val/test__image772.jpg",
+    "label": "labels/val/test__image772.txt",
+    "split": "val",
+    "group_id": 668,
+    "image_sha256": "7a47f39152c664d2c76746494a291b853f6a20ef33ec73b12eb7f394a0bd92dc",
+    "label_sha256": "5a0c39febea12d64db9269a1e65cc441cb7d6543c3dfaa1c385eb2334bb37f1d"
+  },
+  {
+    "source_image": "images/test/image779.jpg",
+    "source_label": "labels/test/image779.txt",
+    "image": "images/val/test__image779.jpg",
+    "label": "labels/val/test__image779.txt",
+    "split": "val",
+    "group_id": 437,
+    "image_sha256": "16354557e49aba8bb870c0ffa9f293ea836f08c2282b30d5444bab32b0e19f61",
+    "label_sha256": "90775300cb3409cd5593adcd42097a6a49bcce608b3eb36729afd3a1f6f6346e"
+  },
+  {
+    "source_image": "images/test/image787.jpg",
+    "source_label": "labels/test/image787.txt",
+    "image": "images/val/test__image787.jpg",
+    "label": "labels/val/test__image787.txt",
+    "split": "val",
+    "group_id": 941,
+    "image_sha256": "65d6d42c613fe2c5a1968ff30f7f3eee0a92045f2874b3e1f7097aa124203f08",
+    "label_sha256": "d3cd8344027d4b8bf0ad91c80657e1e50b40262b91a62b47c0f42a18b316087f"
+  },
+  {
+    "source_image": "images/train/image1006.jpg",
+    "source_label": "labels/train/image1006.txt",
+    "image": "images/val/train__image1006.jpg",
+    "label": "labels/val/train__image1006.txt",
+    "split": "val",
+    "group_id": 6,
+    "image_sha256": "0a23a6487f2e169b3ce0b92ffa705618d7b24fb540b6067de7538191595c968f",
+    "label_sha256": "7053edebc7a006b1f9c1445371af68554f1fe119341f4779f09a21d015801ecd"
+  },
+  {
+    "source_image": "images/train/image102.jpg",
+    "source_label": "labels/train/image102.txt",
+    "image": "images/val/train__image102.jpg",
+    "label": "labels/val/train__image102.txt",
+    "split": "val",
+    "group_id": 16,
+    "image_sha256": "158d5b3f3355f7f937e43a3879f3fe77e0b4384b6b70480c42ffa2edcdb41b23",
+    "label_sha256": "0a3dbeeb74413a92802c2e4bd6e3c8f0f56fd57b81cf716e9e71553eef5df32c"
+  },
+  {
+    "source_image": "images/train/image1025.jpg",
+    "source_label": "labels/train/image1025.txt",
+    "image": "images/val/train__image1025.jpg",
+    "label": "labels/val/train__image1025.txt",
+    "split": "val",
+    "group_id": 16,
+    "image_sha256": "0f78d21a9fc985d6aa200e59f6cda9e0481e732b6c9e3b59917157d8676f47b0",
+    "label_sha256": "843d4844523b76e1471c0c9bf1e64f7614f2aa47cc99fccaab0fab15fba3fd6b"
+  }
+]

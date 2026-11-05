@@ -1,0 +1,6 @@
+{
+  "model": "yolo11n",
+  "confidence": 0.17617617617617617,
+  "criterion": "mean validation AP50-95 for no_helmet and no_vest",
+  "frozen_before_test_at": "2026-11-05T12:07:50.483999+00:00"
+}
